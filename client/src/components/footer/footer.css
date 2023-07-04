@@ -1,0 +1,31 @@
+.footer {
+  width: 100%;
+}
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  border: 2px solid gray;
+  padding: 15px 5px;
+  /* background-color: whitesmoke; */
+}
+.footerPart {
+  margin: 20px 5px;
+  flex: 1;
+  width: 100%;
+  padding: 0px 5px;
+}
+.footerMid {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0px 5px;
+}
+
+.footerPartList {
+  list-style-type: none;
+}
+.footerPartListItem {
+  margin: 10px 0px;
+  cursor: pointer;
+}

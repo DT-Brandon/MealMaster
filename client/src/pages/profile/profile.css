@@ -1,0 +1,9 @@
+.profile{
+    display: flex;
+    position: sticky;
+}
+
+.profileWrapper{
+    display: flex;
+    flex-direction: row;
+}

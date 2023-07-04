@@ -1,0 +1,83 @@
+.recipesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.singleRecipe {
+  display: flex;
+  flex-direction: row;
+  height: 170px;
+  width: 350px;
+  background-color: orange;
+  margin: 10px 10px;
+  padding: 20px;
+  color: color;
+  border-radius: 7px;
+}
+.singleRecipeLeft {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: 0px;
+}
+.recipeImgConatiner {
+  height: 80px;
+  width: 80px;
+  flex: 8;
+}
+.recipeLikeConatiner {
+  margin-top: 5px;
+  flex: 2;
+}
+.recipeImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singleRecipeRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.singleRecipeTitleText {
+  cursor: pointer;
+  margin-left: 5px;
+  font-style: italic;
+}
+h3 span {
+  margin-left: 5px;
+  font-style: italic;
+}
+.singleRecipeDescText {
+  flex: 3;
+  font-size: 13px;
+  overflow: hidden;
+  color: rgb(80, 80, 80);
+  font-style: italic;
+}
+.singleRecipeTitle {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-direction: 1;
+}
+.singleRecipeAuthor {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.like {
+  cursor: pointer;
+  margin-left: 4px;
+  color: blue;
+}
+.likeNumber {
+  margin-right: 2px;
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}

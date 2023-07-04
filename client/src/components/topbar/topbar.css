@@ -1,0 +1,101 @@
+.topbarContainer {
+  height: 75px;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 2;
+}
+
+.logoImg {
+  margin-top: 3px;
+  height: 71px;
+  width: 71px;
+  margin-left: 20px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.topbarCenter {
+  flex: 6;
+}
+
+/* .topbarCenter {
+  display: flex;
+  justify-content: flex-end;
+} */
+.searchbar {
+  width: fit-content;
+  height: 50px;
+  /*  background-color: white; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchLink {
+  color: green;
+}
+
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  margin-right: 20px;
+}
+
+.topbarLinks {
+  border-left: 1px solid white;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: row;
+  min-width: 170px;
+}
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.active {
+  border-bottom: 2px solid yellow;
+}
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.RegisterModal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  /*  transform: translate(-50%, -50%); */
+  z-index: 999;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 100%;
+}
+.ModalCloseButton {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  right: 0;
+}

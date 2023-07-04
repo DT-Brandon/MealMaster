@@ -1,0 +1,44 @@
+.formWrapper {
+  display: flex;
+  width: 100%;
+}
+.searchForm {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 5px 5px 15px 5px;
+  border-bottom: 2px solid black;
+}
+.searchInputContainer {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px 5px;
+  border: 1px solid orange;
+}
+.searchAllergie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.searchFormLabel {
+  margin: 0px 10px 0px 0px;
+}
+.searchFormInput {
+  height: 35x;
+}
+.searchFormSubmitContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 7px;
+}
+.searchFormSubmit {
+  height: fit-content;
+  min-height: 40px;
+  min-width: 100px;
+}
+.short {
+  width: 50px;
+}
